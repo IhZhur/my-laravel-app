@@ -60,22 +60,22 @@ Then, open http://localhost:8000 in your browser.
 ### Project Structure
 
 my-laravel-app/
-├── app/                        # Laravel controllers, models, services
-├── database/                   # Migrations and SQLite database
-├── resources/
-│   ├── js/                     # React files
-│   │   ├── components/         # React components
-│   │   │   ├── TaskList.jsx
-│   │   │   ├── TaskItem.jsx
-│   │   │   ├── TaskForm.jsx
-│   │   ├── app.jsx             # React entry point
-│   ├── views/                  # Blade templates
-├── routes/                     # Laravel routes
-├── public/                     # Compiled CSS/JS files
-├── package.json                # NPM dependencies
-├── vite.config.js              # Vite configuration
-├── .env                        # Environment variables
-└── README.md                   # Documentation
+app/                        # Laravel controllers, models, services
+database/                   # Migrations and SQLite database
+resources/
+        js/                     # React files
+            components/         # React components
+                TaskList.jsx
+                TaskItem.jsx
+                TaskForm.jsx
+            app.jsx             # React entry point
+        views/                  # Blade templates
+routes/                     # Laravel routes
+public/                     # Compiled CSS/JS files
+package.json                # NPM dependencies
+vite.config.js              # Vite configuration
+.env                        # Environment variables
+README.md                   # Documentation
 
 🛠 API Endpoints
 
